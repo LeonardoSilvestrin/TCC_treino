@@ -8,7 +8,7 @@ from PIL import ImageTk
 janela = Tk() #instanciar uma janela
 janela.geometry("400x400")
 janela.title("A janela dos patos")
-icone = ImageTk.PhotoImage(file='C:\\Users\\Leonardo\\Desktop\\Engenharia\\TCC\\Python\\git\\Treino_leo\\pato.jpg')
+icone = ImageTk.PhotoImage(file='C:\\Users\\Leonardo\\Desktop\\Engenharia\\TCC\\Python\\git\\Treino_leo\\Treino_básico\\pato.jpg')
 janela.iconphoto(True,icone)
 label = Label(janela,text = "Olá Mundo",font = ('Times New Roman',40,'bold'),fg = '#000FF0', bg = "grey")
 label.place(x=90,y=150)
